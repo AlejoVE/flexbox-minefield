@@ -1,0 +1,47 @@
+#main {
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#container {
+    display: flex;
+    border: 1px solid blue;
+    flex-flow: row wrap;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.square {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #cbcbcb;
+    border-style: groove;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    color: #3979fa
+}
+
+.two {
+    color: #419010;
+}
+
+.three {
+    color: #f83f37;
+}
+
+.bomb {
+    width: 100%;
+    background-image: url("https://lh3.googleusercontent.com/proxy/4LxxzZYZMkG_SwyO5D_il__qCsAw03xRry0_fMv1pfXGTwF6cNvhGqbyXrZA1Ws5VbFaQAlPyUlz_TpMCfs7L1tlEY91ruB2GGKBnW2d__xb8Jj8nt8VjKSuaw2n0dX4P79Z");
+    background-size: contain;
+    background-position: center;
+}
