@@ -9,7 +9,6 @@
 
 #container {
     display: flex;
-    border: 1px solid blue;
     flex-flow: row wrap;
 }
 
@@ -21,10 +20,11 @@
     display: flex;
     width: 40px;
     height: 40px;
-    background-color: #cbcbcb;
-    border-style: groove;
+    background-color: #b9b9b9;
     justify-content: center;
     align-items: center;
+    border: 2px dotted black
+    
 }
 
 .one {
@@ -44,4 +44,32 @@
     background-image: url("https://lh3.googleusercontent.com/proxy/4LxxzZYZMkG_SwyO5D_il__qCsAw03xRry0_fMv1pfXGTwF6cNvhGqbyXrZA1Ws5VbFaQAlPyUlz_TpMCfs7L1tlEY91ruB2GGKBnW2d__xb8Jj8nt8VjKSuaw2n0dX4P79Z");
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.full {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #d3d0d0;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0;
+}
+
+.cell:hover{
+    display: flex;
+    align-items: center;
+    opacity: 100;
+    height: 100%;
+    background-color: #b9b9b9;
 }
