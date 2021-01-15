@@ -50,7 +50,7 @@ body {
 
 .bomb {
     width: 100%;
-    background-image: url("https://lh3.googleusercontent.com/proxy/4LxxzZYZMkG_SwyO5D_il__qCsAw03xRry0_fMv1pfXGTwF6cNvhGqbyXrZA1Ws5VbFaQAlPyUlz_TpMCfs7L1tlEY91ruB2GGKBnW2d__xb8Jj8nt8VjKSuaw2n0dX4P79Z");
+    background-image: url(/image/bomb.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
